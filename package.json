@@ -1,0 +1,32 @@
+{
+  "name": "crawler-douban-book",
+  "version": "0.0.1",
+  "description": "NodeJs爬取豆瓣数据的数据，并保存进MongoDB数据库。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingKui/Crawler-Douban-Book.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoDB",
+    "爬虫",
+    "mongolass"
+  ],
+  "author": "康兵奎",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingKui/Crawler-Douban-Book/issues"
+  },
+  "homepage": "https://github.com/BingKui/Crawler-Douban-Book#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "log4js": "^1.1.1",
+    "mongolass": "^2.4.2",
+    "request": "^2.80.0"
+  }
+}
