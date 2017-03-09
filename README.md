@@ -3,12 +3,14 @@
 
 ## 通过本项目能学到什么？
 
-通过本项目能够学到一下知识。
+通过本项目能够学到以下知识。
 + 基本的爬虫系统怎么实现。
++ request请求获取页面后怎么处理
 + express的基本使用和路由的使用。
 + 怎么用log4js来记录日志信息。
-+ node中怎么操作mongoDB数据库
-+ 基本的MVC架构操作数据（其实没有View层）
++ node中怎么操作mongoDB数据库。
++ 基本的MVC架构操作数据（其实没有View层）。
++ 使用mongolass对数据库进行增删改查。
 
 
 ## 环境
@@ -43,7 +45,7 @@ request：`2.80.0`
 node-dev：`3.1.3`
 
 用来测试自动重启服务，方便修改代码后及时测试。相应的也可以使用supervisor、nodemon等插件代替。
-## Devceng
+## Dev
 **下载项目**
 
 > git clone https://github.com/BingKui/Crawler-Douban-Book.git
@@ -76,6 +78,8 @@ node-dev：`3.1.3`
 `http://localhost:3000/tag/update`：获取每个标签的页码总数，并对数据库中的数据进行更新。
 
 `http://localhost:3000/tagList`：获取每个标签包含的所有书籍数据，并保存进数据库。
+
+待后续添...
 
 ## 更新日志
 [更新日志](./docs/update.md)
