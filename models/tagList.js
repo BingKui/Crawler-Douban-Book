@@ -8,6 +8,12 @@ let TagList = mongolass.model('taglist', {
 		type: 'string'
 	},
 	url: {
+		type: 'string'
+	},
+	pub: {
+		type: 'string'
+	},
+	star: {
 		type: 'number'
 	},
 	desc: {

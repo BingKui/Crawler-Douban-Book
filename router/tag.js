@@ -33,9 +33,9 @@ router.get('/', (req, res, next) => {
 					_result.push(_item);
 				}
 			}
-			// var result = {
-			// 	data: _result
-			// };
+			var result = {
+				data: _result
+			};
 			// fs.writeFile('./test_data/tag.json', JSON.stringify(result), 'utf-8', (err) => {
 			// 	if (err) throw err;
 			// });
