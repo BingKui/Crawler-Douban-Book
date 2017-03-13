@@ -1,6 +1,10 @@
+let Mongolass = require('mongolass');
 let mongolass = require('../lib/mongo');
 
 let TagList = mongolass.model('taglist', {
+	tag: {
+		type: Mongolass.Types.ObjectId
+	},
 	pic: {
 		type: 'string'
 	},
