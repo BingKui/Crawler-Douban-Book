@@ -55,8 +55,5 @@ Books.index({
 }, {
 	unique: true
 }).exec();
-Books.index({
-	name_original: 1
-}).exec();
 
 module.exports = Books;

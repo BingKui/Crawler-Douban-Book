@@ -33,7 +33,17 @@ router.get('/', (req, res, next) => {
 								name: _name,
 								pic: $('#mainpic').find('.nbg').attr('href'),
 								star: parseFloat($('#interest_sectl').find('.rating_num').text().trim()),
-								desc: de
+								desc: de,
+								author: '',
+								press: '',
+								name_original: '',
+								translator: '',
+								publication_date: '',
+								pagination: 0,
+								binding: '',
+								price: '',
+								series: '',
+								isbn: ''
 							};
 							for (let i = 0; i < _info.length; i++) {
 								let _itemInfo = $(_info[i]).text().replace(/\s/g, '');
