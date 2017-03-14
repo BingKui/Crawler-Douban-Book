@@ -1,6 +1,6 @@
 {
   "name": "crawler-douban-book",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "NodeJs爬取豆瓣数据的数据，并保存进MongoDB数据库。",
   "main": "index.js",
   "scripts": {

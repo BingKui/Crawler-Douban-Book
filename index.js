@@ -6,6 +6,7 @@ var log = log4js.getLogger("app");
 
 let tag = require('./router/tag');
 let tagList = require('./router/tagList');
+let books = require('./router/books');
 
 log4js.configure('./config/log4js.json');
 app.use(log4js.connectLogger(log4js.getLogger("http"), {
@@ -16,6 +17,8 @@ app.use(log4js.connectLogger(log4js.getLogger("http"), {
 app.use('/tag', tag);
 
 app.use('/tagList', tagList);
+
+app.use('/books', books);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -4,13 +4,14 @@
 ## 通过本项目能学到什么？
 
 通过本项目能够学到以下知识。
-+ 基本的爬虫系统怎么实现。
-+ request请求获取页面后怎么处理
-+ express的基本使用和路由的使用。
-+ 怎么用log4js来记录日志信息。
-+ node中怎么操作mongoDB数据库。
-+ 基本的MVC架构操作数据（其实没有View层）。
-+ 使用mongolass对数据库进行增删改查。
+
++ [基本的爬虫系统怎么实现。](./docs/splider.md)
++ [request请求获取页面后怎么处理。](./docs/request.md)
++ [express的基本使用和路由的使用。](./docs/express.md)
++ [怎么用log4js来记录日志信息。](./docs/log4js.md)
++ [node中怎么操作mongoDB数据库。](./docs/mongodb.md)
++ [基本的MVC架构操作数据（其实没有View层）。](./docs/mvc.md)
++ [使用mongolass对数据库进行增删改查。](./docs/mongolass.md)
 
 
 ## 环境
@@ -78,6 +79,8 @@ node-dev：`3.1.3`
 `http://localhost:3000/tag/update`：获取每个标签的页码总数，并对数据库中的数据进行更新。
 
 `http://localhost:3000/tagList`：获取每个标签包含的所有书籍数据，并保存进数据库。
+
+`http://localhost:3000/books`：获取书籍详细信息并保存进book表
 
 待后续添...
 

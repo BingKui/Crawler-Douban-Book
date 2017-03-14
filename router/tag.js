@@ -4,7 +4,7 @@ let request = require('request');
 let cheerio = require('cheerio');
 let fs = require('fs');
 let log4js = require('log4js');
-let logger = log4js.getLogger("app");
+let logger = log4js.getLogger("tags");
 let config = require('../config/config');
 let TagModel = require('../controller/tag');
 
