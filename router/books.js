@@ -54,7 +54,11 @@ router.get('/', (req, res, next) => {
 							_item.pagination = parseInt(_item.pagination);
 							_item.price = parseFloat(_item.price.substring(0, _item.price.length - 1));
 							//logger.info(_item);
-							BooksModel.addOneItem(_item);
+							let _in = _item.isbn ? _item.isbn : 'no isbn';
+							logger.info('ISBN:' + _in);
+							if (_item.isbn !== '') {
+								BooksModel.addOneItem(_item);
+							}
 						} else {
 							logger.error(error);
 						}
